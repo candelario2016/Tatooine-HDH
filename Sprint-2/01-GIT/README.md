@@ -4,7 +4,7 @@ local: Hace referencia a un repositorio almacenado o alojado en nuestro
 equipo de computo
 
 remote :Mostrará una lista con los nombres de los remotos que hayas especificado.
-Si has clonado tu repositorio, deberías ver por lo menos "origin" —es el nombre
+Si has clonado tu repositorio, deberías ver por lo menos "origin" es el nombre
 predeterminado que le da Git al servidor del que clona
 
 init :Nos permite crear un Repositorio vacio o reinicializar uno existente.
