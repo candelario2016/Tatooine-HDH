@@ -53,3 +53,16 @@ El siguiente dato que vamos a rellenar es `Description` escribimos una breve des
 Posteriormente Selecionamos la opcion `Public`, y marcamos la opcion ` Initialize this repository with a README ` para que nos genere el documento README y selecionamos la licencia (licenses), para esto desplegamos la opciones y selecionamos la licencia gratuita `MIT License`
 
 ![Ejemplo 4](image/github4.png "creando git de manera remota 4")
+
+Lo siguiente es darle click `Create repository` para finalizar el proceso de crear un repositorio en Github.
+
+![Ejemplo 5](image/github5.png "creando git de manera remota 5")
+
+Una vez que hemos creado nuestro repositorio, nos mandara al repositorio creado, lo siguiente que vamos hacer es clonar nuestro repositorio a nuestro entorno local, esto lo haremo copiando la URL la cual nos lo brinda nuestro repositorio al dar click `Clone o download` lo cual nos permite descargar de manera comprimido o clonarlo.
+
+![Ejemplo 6](image/github6.png "creando git de manera remota 6")
+
+Una vez que copiamos el URL de nuestro repositorio que esta de manera remota, abrimos nuestra terminal.
+
+
+![Ejemplo 7](image/github7.png "creando git de manera remota 7")
