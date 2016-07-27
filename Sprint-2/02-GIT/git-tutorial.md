@@ -40,7 +40,16 @@ un nuevo repositorio.
 
 ![Ejemplo 1](image/github1.png "Creando git de manera remota")
 
-Ahora que le dimos click en `New repository` nos manda a una ventana a como esta
-en la imagen.
+Ahora que le dimos click en `New repository` nos manda a una ventana en la cual nos solicita rellenar algunos datos muy importante para nuestro repositorio a como esta en la imagen.
+
+Como primer dato vamos a colocar el nombre de nuestro repositorio en `Repository name`.
 
 ![Ejemplo 2](image/github2.png "Creando git de manera remota 2")
+
+El siguiente dato que vamos a rellenar es `Description` escribimos una breve descripcion de nuestro respositorio.
+
+![Ejemplo 3](image/github3.png "Creando git de manera remota 3")
+
+Posteriormente Selecionamos la opcion `Public`, y marcamos la opcion ` Initialize this repository with a README ` para que nos genere el documento README y selecionamos la licencia (licenses), para esto desplegamos la opciones y selecionamos la licencia gratuita `MIT License`
+
+![Ejemplo 4](image/github4.png "creando git de manera remota 4")
