@@ -103,4 +103,50 @@ Por lo tanto quedara de la siguiente manera `git branch develop`
 
 ![Ejemplo 14](image/github14.png "creando git de manera remota 14")
 
-Ejecutamos el comando `git branch `
+Ejecutamos el comando `git branch ` para validar que se ha creado la rama develop.
+
+![Ejemplo 16](image/github16.png "creando git de manera remota 16")
+
+Lo siguiente que vamos hacer es ejecutar el comando `git checkout` nombre_rama_a_ultilizar.
+
+Nos mostrara un mensaje que hemos realizado un cambio de rama. Por lo tanto nos podremos dar cuenta que la leyenda dice ** tutorial-git git: (develop)**
+
+![Ejemplo 17](image/github17.png "creando git de manera remota 17")
+
+Ahora que nos encontramos en la rama develop vamos a crear otra rama nueva, en la cual vamos a trabajar el proyecto o cambios a realizar de un proyecto, es recomendable para no afectar el proyecto base...
+
+Vamo a Limpiar nuestra termina con el comando `clear` para trabajar de manera ordenada y despues ejecutamos el comando `git checkout -b add-prueba-repositorio`, este comando nos permite agregar una nueva rama y cambiar a la rama creada.
+
+Esto es equivalente a ejecutar el comando que vimos anteriormente:
+
+1.- `git branch add-prueba-repositorio`
+
+2.- `git checkout add-prueba-repositorio`
+
+![Ejemplo 19](image/github19.png "creando git de manera remota 19")
+
+Ejecutamos el comando `git branch` para visualizar nuestras ramas, si observamos tenemos 3 ramas, vamos a trabajar en estos momentos con la rama **add-prueba-repositorio**, en la que ya nos encontramos posicionado.
+
+![Ejemplo 20](image/github20.png "creando git de manera remota 20")
+
+Ahora vamos hacer una modificacion o agregar una informacion a nuestro README para ver el flujo de trabajo de git. Una vez que hayas modificado el documento ejecutamos el comando `git status` el nos permite ver si hay modificaciones.
+
+Como se logra apreciar manda informacion para darnos indicacion de agregar los cambios con el comando `git add <archivo>` y despues ejecutar el comando `git commit` ,al igual nos informa cual es el archivo modificado lo cual no los marco de color rojo con el nombre.
+
+![Ejemplo 21](image/github21.png "creando git de manera remota 21")
+
+Vamos agregar los cambios en nuestra rama con el comando `git add README.md`
+
+![Ejemplo 22](image/github22.png "creando git de manera remota 22")
+
+Lo siguiente es ejecutar el comando `git commit -m`
+"comentario"
+
+El cual nos indica que se ha agregado los cambios del documento.
+
+![Ejemplo 24](image/github24.png "creando git de manera remota 24")
+
+Ahora para visualizar los cambios en nuestro repositorio Github.
+Ejecutamos el comando `git push origin` nombre_rama_a_ultilizar
+
+![Ejemplo 26](image/github26.png "creando git de manera remota 26")
