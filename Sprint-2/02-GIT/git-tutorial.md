@@ -147,6 +147,46 @@ El cual nos indica que se ha agregado los cambios del documento.
 ![Ejemplo 24](image/github24.png "creando git de manera remota 24")
 
 Ahora para visualizar los cambios en nuestro repositorio Github.
-Ejecutamos el comando `git push origin` nombre_rama_a_ultilizar
+Ejecutamos el comando `git push origin`
+ nombre_rama_a_ultilizar
 
 ![Ejemplo 26](image/github26.png "creando git de manera remota 26")
+
+Damos click en la opcion que dice Compare y pull request
+![Ejemplo 27](image/github27.png "creando git de manera remota 27")
+
+
+ Nos manda a la venta Open a pull request observamos que aparece la descripcion del commit escrito anteriormente
+
+![Ejemplo 28](image/github28.png "creando git de manera remota 28")
+
+En la parte inferior nos podemos dar cuenta que aparecen la difencia de los cambios realizado en nuestro repositorio
+
+![Ejemplo 29](image/github29.png "creando git de manera remota 29")
+
+Si observamos unicamente nos aparece que le podemos hacer pull al master, esto debido que no hemos hecho un push a develop para que aparesca. La razon por la que no aparece develop es porque esta vacio por lo tanto vamos a realizar un `push origin` a develop.
+
+![Ejemplo 30](image/github30.png "creando git de manera remota 30")
+
+Antes de realizar un push origin a develop vamos primero a cambiar de rama con el comando `git checkout develop` y depuest ejecutaremos el comando `git push origin develop`
+
+![Ejemplo 31](image/github31.png "creando git de manera remota 31")
+
+Regresamos a Github y presionamos la tecla **F5** para actualizar y desplegamos el menu base y si nos damos cuenta ahora si aparece la opcion develop para realizar el pull con develop
+
+![Ejemplo 32](image/github32.png "creando git de manera remota 32")
+
+Realizamos click en la opcion Create pull Request , cambiar la opcion "**base:develop**" y "**compare:add-prueba-repositorio**", fijarse mucho en que estamos haciendo el pull a la rama correcta
+
+![Ejemplo 33](image/github33.png "creando git de manera remota 32")
+Confirmamos
+
+![Ejemplo 34](image/github34.png "creando git de manera remota 32")
+
+Eliminamos
+
+![Ejemplo 35](image/github35.png "creando git de manera remota 32")
+
+Finalmente podemos visualizar el trabajao realizado en nuestra rama develop
+
+![Ejemplo 37](image/github37.png "creando git de manera remota 32")
