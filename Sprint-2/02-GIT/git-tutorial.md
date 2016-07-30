@@ -168,25 +168,44 @@ Si observamos unicamente nos aparece que le podemos hacer pull al master, esto d
 
 ![Ejemplo 30](image/github30.png "creando git de manera remota 30")
 
-Antes de realizar un push origin a develop vamos primero a cambiar de rama con el comando `git checkout develop` y depuest ejecutaremos el comando `git push origin develop`
+Antes de realizar un push origin a develop vamos primero a cambiar de rama con el comando `git checkout develop` y depues ejecutaremos el comando `git push origin develop`
 
 ![Ejemplo 31](image/github31.png "creando git de manera remota 31")
 
-Regresamos a Github y presionamos la tecla **F5** para actualizar y desplegamos el menu base y si nos damos cuenta ahora si aparece la opcion develop para realizar el pull con develop
+Regresamos a la pagina de Github y presionamos la tecla **F5** para actualizar y desplegamos el menu base y si nos damos cuenta ahora si aparece la opcion develop para realizar el pull con develop.
+
+ Antes de crear el pull realizar un cambio en la opcion "**base:develop**" y "**compare:add-prueba-repositorio**", fijarse mucho en que estamos haciendo el pull a la rama correcta. Realizamos click en la opcion Create pull Request.
 
 ![Ejemplo 32](image/github32.png "creando git de manera remota 32")
 
-Realizamos click en la opcion Create pull Request , cambiar la opcion "**base:develop**" y "**compare:add-prueba-repositorio**", fijarse mucho en que estamos haciendo el pull a la rama correcta
+Este nos mandara a una direcion en la que nos indicara que la branch no tiene conflictos con la branch base selecionada, por lo tanto podemos hacer el *Merge pull request* haciendo click
+sobre el boton para confirmar.
 
-![Ejemplo 33](image/github33.png "creando git de manera remota 32")
-Confirmamos
 
-![Ejemplo 34](image/github34.png "creando git de manera remota 32")
+![Ejemplo 33](image/github33.png "creando git de manera remota 33")
 
-Eliminamos
+Ahora vamos a confirmar si esta de manera correcta damos click `Confirm merge`
 
-![Ejemplo 35](image/github35.png "creando git de manera remota 32")
+![Ejemplo 34](image/github34.png "creando git de manera remota 34")
 
-Finalmente podemos visualizar el trabajao realizado en nuestra rama develop
+Lo siguiente que vamos hacer es eliminar la rama temporal , haciendo click  en *Delete branch*.
 
-![Ejemplo 37](image/github37.png "creando git de manera remota 32")
+![Ejemplo 35](image/github35.png "creando git de manera remota 35")
+
+Finalmente podemos visualizar el trabajao realizado en nuestra rama remota develop
+
+![Ejemplo 37](image/github37.png "creando git de manera remota 37")
+
+Lo siguiente es ir a la terminal y ejecutamos el comando `git pull origin develop` con esto sincronizamos la rama remota con la local, de esta manera se actualiza con los cambios realizado en nuestro proyecto local.
+
+
+![Ejemplo 39](image/github39.png "creando git de manera remota 39")
+
+Finalmente vamos eliminar la rama en nuestra terminal, porque aun se visualiza para eso vamos ejecutar el comando `git branch -D add-prueba-repositorio` , para visualizar si se elimino correctamente ejecutamos el comando `git branch`.
+
+
+![Ejemplo 40](image/github38.png "creando git de manera remota 40")
+
+Felicidades !!!!
+
+Ahora sabes ultilizar GIT.
