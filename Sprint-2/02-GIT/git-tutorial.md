@@ -156,7 +156,7 @@ Damos click en la opcion que dice Compare y pull request
 ![Ejemplo 27](image/github27.png "creando git de manera remota 27")
 
 
- Nos manda a la venta Open a pull request observamos que aparece la descripcion del commit escrito anteriormente
+ Nos manda a la ventana Open a pull request observamos que aparece la descripcion del commit escrito anteriormente
 
 ![Ejemplo 28](image/github28.png "creando git de manera remota 28")
 
