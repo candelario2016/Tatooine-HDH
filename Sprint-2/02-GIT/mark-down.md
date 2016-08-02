@@ -106,7 +106,7 @@ ___Esto también es negrita y cursiva___
 Resultado:
 ___Esto también es negrita y cursiva___
 
-Se pueden emplear indistintamente tanto el asterisco * como el guión bajo _ siempre y cuando no se mezclen y lo que determina el formato es el número de ellos antes y después del bloque de texto a formatear. Uno es cursiva, dos es negrita, y tres ambas a la vez, así de sencillo.
+se puede ultilizar de distinta manera tanto con el asterisco * como el guión bajo _ siempre y cuando no se mezclen y lo que determina el formato es el número de ellos antes y después del bloque de texto a formatear. Uno es cursiva, dos es negrita, y tres ambas a la vez, así de facil.
 
 - **Enlaces**: Hay dos maneras de crear un enlace.
 
