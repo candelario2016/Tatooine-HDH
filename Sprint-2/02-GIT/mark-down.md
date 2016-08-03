@@ -202,4 +202,3 @@ Esto es una lista con puntos.
 - Primer elemento
 - Segundo elemento
 - Tercer elemento
-- - -
