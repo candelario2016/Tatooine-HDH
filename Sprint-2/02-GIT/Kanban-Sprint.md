@@ -1,4 +1,4 @@
-# Que es un tableto Kanban
+# Que es un tablero Kanban
 
 Es un simbolo visual que se ultiliza para desencadenar una accion, a menudo se representa en un tablero Kanban para reflejar los procesos de su trabajo, el Kanban se movera a travez de las diversas etapas de su trabajo hasta su finalizacion. Se considera un metodo de extraccion.
 
